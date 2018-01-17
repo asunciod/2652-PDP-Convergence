@@ -1,0 +1,411 @@
+#v2 p {
+  line-height: 20px;
+}
+
+header.v2,
+header.immersive {
+  position: relative;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+  background: #fff;
+}
+
+/* Overriding importants ... lol */
+#headerArea.immersive .c-uhf-menu button,
+#headerArea.immersive .msame_Header_name,
+#headerArea.immersive #uhf-shopping-cart,
+#headerArea.immersive .c-universal-header>div+div .c-logo,
+#headerArea.immersive .c-universal-header>div:first-child .c-uhf-nav-link {
+  color: #000!important;
+}
+
+header .buy-now {
+  position: absolute;
+  top: 67px;
+  right: 0;
+  text-transform: uppercase;
+  font-size: 13px;
+  z-index: 999;
+  letter-spacing: .05em;
+}
+header p.buy-now:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.hero.v2.v1 {
+    background: url('http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1LO2d?ver=9889') center 60px no-repeat; overflow: visible;
+    z-index: 1;
+    margin-bottom: 200px;
+    margin-top: -120px;
+}
+@supports (-ms-ime-align: auto) {
+  .hero.v2.v1 {
+    margin-bottom: 280px;
+  }
+}
+.hero.v2.v1.devices {
+    background: url('http://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1LO2h?ver=7637') center -60px no-repeat; background-color: #f1f1f1;
+}
+@media (max-width: 1400px) {
+  /*.hero.v2.v1.devices {*/
+    /*background: url(../images/hero-c-alt-4-small.jpg) center center no-repeat;*/
+    /*background-color: #f1f1f1;*/
+  /*}*/
+
+}
+.hero.v2.v1 [data-grid=container] {
+  position: relative;
+  bottom: -495px;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+/* Please don't hate me */
+.hero.v2.v1.alt {
+  background: none;
+  height: 780px;
+  margin-top: -70px;
+  width: 100%;
+  float:left;
+  margin-bottom: 270px;
+
+}
+.hero.v2.v1.alt [data-grid=container] {
+  position: relative;
+  bottom: 137px;
+  z-index: 10;
+}
+a.c-call-to-action:after {
+  content: '';
+  cursor: pointer;
+}
+.hero.v2.v1.video {
+  background: none;
+}
+.hero.v2.v1.video [data-grid=container] {
+  bottom: 205px;
+}
+.hero.v3 {
+  height: auto;
+  background: #f1f1f1;
+  padding-bottom: 40px;
+}
+.hero.v3 > div > div,
+.hero.v3 .hr-or span {
+  background: #f1f1f1;
+}
+.hero.v3 [data-grid~=col-7],
+.hero.v2.alt [data-grid~=col-7] {
+  padding-right: 40px;
+}
+.hero.v2.alt {
+  min-height: 470px;
+  height:auto;
+}
+.video-wrapper {
+  height: 700px;
+  overflow: hidden;
+  position:relative;
+}
+#immersive-hero.v2 {
+  height: 720px;
+}
+
+#immersive-hero.v2 .c-carousel .c-flipper.f-previous,
+#immersive-hero.v2 .c-carousel .c-flipper.f-next {
+  top: 50%;
+}
+#mainContent.video {
+  padding-top: 0;
+  margin: 0 auto;
+  bottom: 170px;
+  position: relative;
+}
+
+.buybox.v2 {
+  z-index: 9;
+  background: #fff;
+  color: #000;
+  text-align: left;
+  padding: 25px;
+  -webkit-box-shadow: 0px 8px 48px -2px rgba(0,0,0,0.28);
+  -moz-box-shadow: 0px 8px 48px -2px rgba(0,0,0,0.28);
+  box-shadow: 0px 8px 48px -2px rgba(0,0,0,0.28);
+}
+.buybox.v2.alt {
+  margin-bottom: -70px;
+}
+.buybox.v2.v3 {
+  box-shadow: none;
+  margin-top: 100px;
+  padding: 0;
+}
+.buybox.v2.v3.v4 {
+  box-shadow: none;
+  margin-top: 40px;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.buybox.v2.v3 [data-grid=col-3] {
+  float: left;
+  padding-right: 40px;
+  max-width: 310px;
+}
+.buybox.v2.v3 [data-grid=col-3] img {
+  max-width: 255px;
+}
+.buybox.v2 h1 {
+  color :#000;
+  text-align: left;
+  font: 700 30px/34px "Segoe UI";
+  padding: 0;
+}
+.buybox.v2 .by-ms {
+  padding: 10px 0;
+}
+.buybox.v2 .c-call-to-action {
+  background: #dc3c01;
+  width: 100%;
+  padding: 10px 0;
+}
+.buybox.v2 .c-call-to-action:hover {
+  background: #c23801;
+}
+
+.buybox.v2 .c-call-to-action.secondary {
+  background: #8a94a4;
+  color: #fff;
+}
+.buybox.v2 .c-call-to-action.secondary:hover {
+  background: #707a8a;
+  color: #fff;
+}
+.buybox.v2 .c-call-to-action:first-of-type {
+  margin-bottom: 6px;
+}
+.buybox.v2 [data-grid=col-3] {
+  float: right;
+}
+.buybox.v2 .price {
+  font: 400 20px/26px "Segoe UI";
+  padding-bottom: 5px;
+}
+.buybox.v2 .price span {
+  font: 600 16px/20px "Segoe UI";
+}
+.buybox.v2 .save {
+  font: 400 13px/12px "Segoe UI";
+  padding-bottom: 15px;
+}
+.buybox.v2 .leading-actions {
+  font-size: 13px;
+}
+.buybox.v2 .leading-actions .secondary-cta {
+  color: #c43501;
+}
+ul.bullets {
+  list-style: disc;
+  padding: 10px 0 20px 20px;
+}
+
+ul.bullets li {
+  font-weight: 300;
+}
+ul.bullets li a {
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.hr-or {
+  padding: 6px 0 10px 0;
+  position: relative;
+}
+.hr-or hr {
+  display: inline-block;
+  width: 100%;
+  opacity: .5;
+}
+.hr-or span {
+  top: 0px;
+  position: absolute;
+  font-size: 13px;
+  background: #fff;
+  padding: 5px 15px;
+  display: block;
+  z-index: 1;
+  right: 43%;
+}
+
+#additional-features.centered img {
+  width: 100px;
+}
+
+#additional-features.centered img.skype,
+#additional-features.centered img.support {
+}
+.c-rating .c-glyph:after {
+  color: #000!important;
+}
+.c-pivot .buy-box a {
+  background: #dc3c01;
+  display:inline-block;
+  vertical-align: middle;
+  font-weight: 400;
+}
+.c-pivot .buy-box a:hover {
+  background: #c23801;
+}
+.c-pivot .buy-box p {
+  display:inline-block;
+  vertical-align: middle;
+  padding-right:15px;
+}
+.c-pivot .buy-box p span {
+  font-size: 14px;
+}
+.c-pivot [role=tab] {
+  font-size: 15px;
+  margin-right: 50px;
+  font-weight: 400;
+}
+#top-of-pivot.c-pivot [role=tab]:last-of-type {
+  margin-right: 0;
+}
+#top-of-pivot.c-pivot #TopQs-section-Question-last {
+  margin-right: 50px;
+  border-bottom:1px solid #c8c8c8;
+}
+.jquery-ui-accordion {
+  border-bottom: none;
+}
+.c-pivot [role=tab]:hover {
+  opacity: 1;
+}
+.c-pivot [role=tab].f-active,
+#achieve-more a.f-active {
+  border-bottom: 4px solid #dc3701;
+}
+#faq h3 {
+  background: #fff;
+  border-bottom: 0;
+  margin-bottom: 0;
+  color: #000;
+  font-weight: 400;
+  padding: 20px 0;
+  font-size: 14px;
+}
+#faq .accordion-content p,
+#faq .accordion-content li {
+  font: 400 14px/1.5 "Segoe UI";
+}
+#faq .subtitle {
+  opacity: 1;
+}
+.jquery-ui-accordion .ui-accordion-header:before {
+  background-image: url(https://docs.microsoft.com/en-us/windows/uwp/design/style/images/segoe-mdl/e70d.png);
+}
+.jquery-ui-accordion .ui-accordion-header.active:before {
+  background-image: url(https://docs.microsoft.com/en-us/windows/uwp/design/style/images/segoe-mdl/e70e.png);
+}
+
+#system-requirements p,
+#system-requirements h4 {
+  border-bottom: 1px solid #dfdfdf;
+  padding-bottom: 18px;
+  margin-bottom: 15px;
+}
+#system-requirements h4 {
+  font-weight: 600;
+}
+
+#system-requirements [data-grid=col-3] p:first-of-type {
+  height: 80px;
+}
+#system-requirements [data-grid=col-3] p:nth-of-type(2) {
+  height: 120px;
+}
+#system-requirements [data-grid=col-3] p:nth-of-type(3) {
+  height: 50px;
+}
+#system-requirements .additional {
+  border-top: none;
+}
+#system-requirements .additional p,
+#system-requirements .additional h4 {
+  border-bottom: none;
+}
+
+.c-uhf-menu .glyph-chevron-down {
+  font-size: 9px;
+}
+.c-universal-header>div+div .c-uhf-menu>button:before {
+  bottom: 10px;
+  width: calc(100% - 44px);
+}
+#uhfCatLogo::after {
+  content: none;
+}
+.view-more,
+.features-shelf-toggle {
+  font-size: 13px;
+  letter-spacing: .075em;
+}
+#faq ul a {
+  font: 300 15px/20px "Segoe UI";
+}
+#TopQs-section h3 .pmg-accordion-title {
+  font-weight: 400;
+}
+#questionTopics h1 {
+  font: 600 24px/32px "Segoe UI";
+}
+#questionTopics .intro {
+  padding-top: 10px;
+  max-width: 730px;
+}
+#immersive-features ul.tiles li:hover img {
+  opacity: 1;
+  cursor: default;
+}
+.c-carousel .c-sequence-indicator {
+  bottom: 148px;
+}
+#top-of-pivot.alt .sticky-tabs {
+  text-align: left;
+}
+#ratings .reviews .c-rating {
+  padding-bottom: 25px;
+}
+#ratings .c-rating[data-value] div:after,
+#ratings .c-rating[data-value] div:before {
+  font-size: 18px;
+}
+#ratings .c-rating[data-value] div:after {
+  color: #000;
+}
+#ratings .reviews p.name,
+#ratings .reviews p.date {
+  font: 400 15px/20px "Segoe UI";
+}
+
+#ratings .reviews h4 {
+  font: 400 19px/24px "Segoe UI";
+  padding-bottom: 10px;
+}
+#ratings .reviews [data-grid~=col-6] {
+  height: 190px;
+}
+#ratings .reviews [data-grid~=col-4] {
+  width: 26.333%;
+}
+#ratings .reviews [data-grid~=col-8] {
+  width: 72.333%;
+}
+footer#footerArea.video-template-footer {
+  width: 100%;
+  margin: -190px 0 0 0;
+  display: inline-block;
+  float:left;
+}
